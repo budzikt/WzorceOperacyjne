@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Temat {
+
     private List<Obserwator> listaObserwatorow;
 
     Temat() {

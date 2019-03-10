@@ -13,10 +13,11 @@ public class KonkretnyIterator extends Iterator {
     }
 
     public boolean maKolejnyElement() {
-        return obecnyElement < ostatniElement;
+        return kolekcja.maKolejnyCzerowny(obecnyElement);
+        //return obecnyElement < ostatniElement;
     }
 
-    public Iterable pobiezElement() {
+    public Kwiat pobiezElement() {
         return kolekcja.pobierzElement(obecnyElement);
     }
 

@@ -1,6 +1,7 @@
 package Odwiedzajacy;
 
-public class Odwiedzajacy {
+public class Odwiedzajacy  {
+
     public double odziwezNormalnegoPracownika(Pracownik p) {
         return p.zarobkiNaRok * 0.18;
     }

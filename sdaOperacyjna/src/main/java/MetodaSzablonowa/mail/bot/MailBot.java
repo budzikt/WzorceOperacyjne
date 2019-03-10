@@ -4,6 +4,7 @@ public abstract class MailBot {
 
     private String glownaTresc;
 
+    /*TU JEST WZORZEC*/
     public String napiszMailing() {
         return napiszNaglowek()
                 + '\n'
@@ -19,7 +20,9 @@ public abstract class MailBot {
     protected MailBot(String glownaTresc){
         this.glownaTresc = glownaTresc;
     }
+    /*TU JEST WZPORZEC*/
     protected abstract String napiszNaglowek();
+    /*TU JEST WZPORZEC*/
     protected abstract String napiszStopke();
     protected String napiszTresc() {
         return this.glownaTresc;

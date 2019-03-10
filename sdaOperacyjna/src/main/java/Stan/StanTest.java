@@ -7,8 +7,8 @@ public class StanTest {
             pacjenci[i] = new Pacjent();
         }
 
-        for(int i = 0; i < 50; i++) {
-            System.out.println("Dzien " + i + 1);
+        for(int i = 0; i <= 50; i++) {
+            System.out.println("Dzien " + Integer.valueOf(i).toString());
             for(Pacjent p : pacjenci) {
                 System.out.println(p.nowyDzienWSzpitalu());
             }

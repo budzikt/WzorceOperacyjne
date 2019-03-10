@@ -7,6 +7,10 @@ public class ObserwatorTest {
         TwitterObservator tObs = new TwitterObservator();
 
         t.dodajObserwatore(tObs);
+        t.dodajObserwatore(tObs);
+        t.dodajObserwatore(tObs);
+        t.dodajObserwatore(tObs);
+        t.dodajObserwatore(tObs);
 
         t.zdarzenie("Na Boga, nowy koncert hordó tele hering w listopadzie");
 

@@ -3,11 +3,17 @@ package Iterator;
 public class IteratorTest {
     public static void main(String[] args) {
         KolekcjaElementow kolekcja = new KolekcjaElementow();
-        kolekcja.dodajDoKolekcji(new Iterable())
-                .dodajDoKolekcji(new Iterable())
-                .dodajDoKolekcji(new Iterable())
-                .dodajDoKolekcji(new Iterable())
-                .dodajDoKolekcji(new Iterable());
+        kolekcja.dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat())
+                .dodajDoKolekcji(new Kwiat());
 
         Iterator iterator = kolekcja.pobierzIterator();
         while(!iterator.czyKoniec()) {

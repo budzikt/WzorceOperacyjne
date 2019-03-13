@@ -1,4 +1,4 @@
-package LancuchZobowiazan;
+package lancuchZobowiazan;
 
 public class Handler50 extends Handler {
 

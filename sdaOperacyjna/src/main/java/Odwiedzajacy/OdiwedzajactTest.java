@@ -1,4 +1,4 @@
-package Odwiedzajacy;
+package odwiedzajacy;
 
 public class OdiwedzajactTest {
     public static void main(String[] args) {

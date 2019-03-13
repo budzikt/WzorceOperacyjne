@@ -1,4 +1,4 @@
-package Stan;
+package stan;
 
 public class StanTest {
     public static void main(String[] args) {

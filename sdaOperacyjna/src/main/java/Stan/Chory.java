@@ -1,4 +1,4 @@
-package Stan;
+package stan;
 
 public class Chory extends Stan {
     public String mow() {

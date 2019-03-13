@@ -1,7 +1,7 @@
-package MetodaSzablonowa;
+package metodaSzablonowa;
 
-import MetodaSzablonowa.mail.bot.MailBot;
-import MetodaSzablonowa.mail.bot.NowyKlientMailBot;
+import metodaSzablonowa.mail.bot.MailBot;
+import metodaSzablonowa.mail.bot.NowyKlientMailBot;
 
 public class MetodaSzabonowaMain {
     public static void main(String[] args) {

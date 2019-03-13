@@ -1,7 +1,7 @@
-package MetodaWytworcza.przyklad.producent;
+package metodaWytworcza.przyklad.producent;
 
-import MetodaWytworcza.przyklad.produkt.Product;
-import MetodaWytworcza.przyklad.produkt.ProduktKonkretny;
+import metodaWytworcza.przyklad.produkt.Product;
+import metodaWytworcza.przyklad.produkt.ProduktKonkretny;
 
 public class KonkretnyProducent extends Producent {
 

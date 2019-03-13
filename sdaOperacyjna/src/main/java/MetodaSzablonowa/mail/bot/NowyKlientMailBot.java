@@ -1,4 +1,4 @@
-package MetodaSzablonowa.mail.bot;
+package metodaSzablonowa.mail.bot;
 
 public class NowyKlientMailBot extends MailBot {
 

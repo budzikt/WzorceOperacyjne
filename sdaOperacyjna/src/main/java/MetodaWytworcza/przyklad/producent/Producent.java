@@ -1,6 +1,6 @@
-package MetodaWytworcza.przyklad.producent;
+package metodaWytworcza.przyklad.producent;
 
-import MetodaWytworcza.przyklad.produkt.Product;
+import metodaWytworcza.przyklad.produkt.Product;
 
 public abstract  class Producent {
 

@@ -1,4 +1,4 @@
-package LancuchZobowiazan;
+package lancuchZobowiazan;
 
 public abstract class Handler {
     public Handler nastepny;

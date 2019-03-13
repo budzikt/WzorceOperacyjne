@@ -1,4 +1,4 @@
-package Stan;
+package stan;
 
 public class Pacjent {
     private Stan stan;

@@ -1,8 +1,8 @@
-package MetodaWytworcza.przyklad;
+package metodaWytworcza.przyklad;
 
-import MetodaWytworcza.przyklad.producent.KonkretnyProducent;
-import MetodaWytworcza.przyklad.producent.Producent;
-import MetodaWytworcza.przyklad.produkt.Product;
+import metodaWytworcza.przyklad.producent.KonkretnyProducent;
+import metodaWytworcza.przyklad.producent.Producent;
+import metodaWytworcza.przyklad.produkt.Product;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Obserwator;
+package obserwator;
 
 public class ObserwatorTest {
     public static void main(String[] args) {

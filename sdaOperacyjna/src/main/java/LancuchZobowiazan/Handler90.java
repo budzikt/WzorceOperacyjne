@@ -1,4 +1,4 @@
-package LancuchZobowiazan;
+package lancuchZobowiazan;
 
 public class Handler90 extends Handler {
     @Override

@@ -1,4 +1,4 @@
-package Mediator;
+package mediator;
 
 public abstract class Kolega {
     private Mediator mediator;

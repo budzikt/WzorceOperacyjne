@@ -1,4 +1,4 @@
-package LancuchZobowiazan;
+package lancuchZobowiazan;
 
 public class Handler70 extends Handler {
     public String obsluz(int predkosc) {

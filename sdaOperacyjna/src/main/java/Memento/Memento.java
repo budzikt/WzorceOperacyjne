@@ -1,4 +1,4 @@
-package Memento;
+package memento;
 
 public class Memento {
     private UstawieniaPokoju up;

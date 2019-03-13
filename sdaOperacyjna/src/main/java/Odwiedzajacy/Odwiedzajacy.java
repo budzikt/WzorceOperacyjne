@@ -1,4 +1,4 @@
-package Odwiedzajacy;
+package odwiedzajacy;
 
 public class Odwiedzajacy  {
 

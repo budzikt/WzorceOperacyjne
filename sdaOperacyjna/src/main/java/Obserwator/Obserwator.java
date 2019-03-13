@@ -1,4 +1,4 @@
-package Obserwator;
+package obserwator;
 
 public abstract class Obserwator {
 

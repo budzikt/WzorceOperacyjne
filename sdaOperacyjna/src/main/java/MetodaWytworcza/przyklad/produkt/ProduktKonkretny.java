@@ -1,4 +1,4 @@
-package MetodaWytworcza.przyklad.produkt;
+package metodaWytworcza.przyklad.produkt;
 
 public class ProduktKonkretny extends Product {
 

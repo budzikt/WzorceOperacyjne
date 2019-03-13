@@ -1,4 +1,4 @@
-package Memento;
+package memento;
 
 public class UstawieniaPokoju {
     private PODLOGA podloga;

@@ -1,7 +1,5 @@
 package Fabryka.Przyklad;
 
-import Fabryka.Przyklad.Fabryka;
-
 public abstract class Produkt {
     String nazwa;
 

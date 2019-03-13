@@ -1,4 +1,4 @@
-package Memento;
+package memento;
 
 public class Pokoj {
     KOLOR_SCIAN kolor_scian;

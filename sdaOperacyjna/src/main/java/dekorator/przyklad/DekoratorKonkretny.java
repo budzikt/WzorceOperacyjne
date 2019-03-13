@@ -2,13 +2,21 @@ package dekorator.przyklad;
 
 public class DekoratorKonkretny extends Dekorator {
 
+    private int cena;
+
     public DekoratorKonkretny(int cena, Dekorowalny elementDoUdekorowania) {
-        super(cena, elementDoUdekorowania);
+        super(elementDoUdekorowania);
+        this.cena = cena;
+    }
+
+    @Override
+    public void wykonajAkcje() {
+        System.out.println("Fajna akcja wykonana przed elementem dekorowanym");
+        this.dekorowanyElement.wykonajAkcje();
     }
 
     @Override
     public int pobierzCene() {
-        System.out.println("To jest udekorowany element");
-        return super.pobierzCene();
+        return this.cena + super.pobierzCene();
     }
 }

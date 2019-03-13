@@ -2,15 +2,20 @@ package dekorator.przyklad;
 
 public abstract class Dekorator extends Dekorowalny {
 
-    private Dekorowalny dekorowanyElement;
+    protected Dekorowalny dekorowanyElement;
 
-    public Dekorator(int cena, Dekorowalny elementDoUdekorowania) {
-        super(cena);
-        this.dekorowanyElement = elementDoUdekorowania;
+
+    public Dekorator(Dekorowalny dekorowanyElement) {
+        this.dekorowanyElement = dekorowanyElement;
     }
 
     @Override
     public int pobierzCene() {
-        return this.getCena() + this.dekorowanyElement.pobierzCene();
+        return this.dekorowanyElement.pobierzCene();
+    }
+
+    @Override
+    public void wykonajAkcje() {
+        this.dekorowanyElement.wykonajAkcje();
     }
 }

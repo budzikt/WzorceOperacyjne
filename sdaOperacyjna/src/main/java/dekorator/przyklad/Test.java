@@ -5,5 +5,6 @@ public class Test {
         Dekorowalny el = new Element(10);
         DekoratorKonkretny dk = new DekoratorKonkretny(5, el);
         System.out.println(dk.pobierzCene());
+        dk.wykonajAkcje();
     }
 }

@@ -1,4 +1,4 @@
-package most;
+package most.przyklad;
 
 public class MostTest {
     public static void main(String[] args) {

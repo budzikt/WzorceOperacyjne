@@ -1,4 +1,4 @@
-package most;
+package most.przyklad;
 
 public abstract class Abstrakcja {
 

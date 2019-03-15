@@ -18,12 +18,12 @@ public class MultiSingleton {
     public static MultiSingleton getInstance(int id) throws Exception {
         if(MultiSingleton.instanceList.containsKey(id)) {
             System.out.println("Instancja singletona o id" + id + " juz istnieje, zwracam istniejaca");
-            return instanceList.get(id);
+            return MultiSingleton.instanceList.get(id);
         } else {
-            if(instanceList.size() < MultiSingleton.maxInstances) {
+            if(MultiSingleton.instanceList.size() < MultiSingleton.maxInstances) {
                 System.out.println("Instancja singletona o id" + id + " NIE istnieje, tworze");
                 MultiSingleton ms = new MultiSingleton(id);
-                instanceList.put(id, ms);
+                MultiSingleton.instanceList.put(id, ms);
                 return ms;
             } else {
                 throw new Exception("Maksymalna lista singletonów utworzona");
